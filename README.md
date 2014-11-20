@@ -14,7 +14,7 @@ firebase login
 
 ### Create Firebase App
 
-You must create an app in your Firebase dashboard prior to using this tool.
+You must create an app in your Firebase dashboard prior to using this tool.  Ideally you can name your Firebase app the same name as your ember-cli app.
 
 ## Usage
 
@@ -36,7 +36,7 @@ ember generate firebase-hosting
 
 ### App naming
 
-This tool assumes that your ember-cli has the same name as your Firebase app.  If that is not the case open `firebase.json` and change the `firebase` property from your ember-cli app's name to the name of your app in Firebase.  
+This tool assumes that your ember-cli app has the same name as your Firebase app.  If that is not the case open `firebase.json` file and change the `firebase` property from your ember-cli app's name to the name of your app in Firebase.  
 
 
 ### Deploy
