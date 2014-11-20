@@ -1,0 +1,19 @@
+{
+  "firebase": "<%= dasherizedPackageName %>",
+  "public": "./dist",
+  "ignore": [],
+  "rewrites": [
+    {
+      "source": "/**",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/tests",
+      "destination": "tests/index.html"
+    },
+    {
+      "source": "/tests/**",
+      "destination": "tests/index.html"
+    },
+  ]
+}

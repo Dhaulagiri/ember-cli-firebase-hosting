@@ -1,0 +1,9 @@
+{
+  "firebase": "<%= dasherizedPackageName %>",
+  "public": "./dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

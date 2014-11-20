@@ -1,25 +1,45 @@
 # Ember-cli-firebase-hosting
 
-This README outlines the details of collaborating on this Ember addon.
+Wrapper for the `firebase-tools` package.  Allows usage of firebase hosting deployment from an ember-cli app.  The main advantage to this tool is that it ensures your app is built before you deploy.
 
-## Installation
+## Usage
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+### Installation
 
-## Running
+From within your Ember CLI application run:
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```bash
+npm install --save-dev ember-cli-firebase-hosting
+```
 
-## Running Tests
+### Setting up Firebase Hosting
 
-* `ember test`
-* `ember test --server`
+From within your Ember CLI application run:
 
-## Building
+```bash
+ember generate firebase-hosting
+```
 
-* `ember build`
+### Authenticate with Firebase
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+From within your Ember CLI application run:
+
+```bash
+firebase login
+```
+
+### Deploy
+
+```bash
+ember firebase deploy
+```
+
+## Contributing
+
+### Running Tests
+
+* `npm test`
+
+## License
+
+MIT
