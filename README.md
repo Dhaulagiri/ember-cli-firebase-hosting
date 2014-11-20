@@ -55,4 +55,4 @@ ember firebase deploy
 
 MIT
 
-Inspired by and heavily drawn from by Robert Jackson's similar [library for Divshot](https://github.com/rwjblue/ember-cli-divshot)
+Inspired by and heavily drawn from Robert Jackson's similar [library for Divshot](https://github.com/rwjblue/ember-cli-divshot)
