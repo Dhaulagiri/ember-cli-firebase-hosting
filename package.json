@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-firebase-hosting",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Wrapper for Firebase's CLI to deploy Ember apps to Firebase.",
   "directories": {
     "doc": "doc",
