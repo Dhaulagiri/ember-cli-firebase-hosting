@@ -1,6 +1,7 @@
 {
   "name": "ember-cli-firebase-hosting",
   "version": "0.1.1",
+  "description": "Wrapper for Firebase's CLI to deploy Ember apps to Firebase.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -17,7 +18,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "ember-cli": "0.1.2"
+    "ember-cli": "0.2.0-beta.1",
+    "ember-cli-app-version": "0.3.1",
+    "ember-cli-dependency-checker": "0.0.7",
+    "express": "^4.8.5",
+    "glob": "^4.0.5"
   },
   "dependencies": {
     "firebase-tools": "~1.1.4",
