@@ -25,7 +25,7 @@
     "glob": "^4.0.5"
   },
   "dependencies": {
-    "firebase-tools": "~1.1.4",
+    "firebase-tools": "~1.1.5",
     "rsvp": "~3.0.9"
   },
   "keywords": [
